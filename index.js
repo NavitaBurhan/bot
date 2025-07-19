@@ -10,10 +10,10 @@ const archiver = require('archiver');
 const execAsync = promisify(exec);
 
 // CONFIG
-const DB_USER = 'SKYNEST';
-const DB_PASSWORD = 'SKYNEST11';
-const DISCORD_TEXT_WEBHOOK_URL = 'https://discord.com/api/webhooks/1386958119438909490/Dwuyufcglr1saU-UI_DmRSkvFh6L_VfC1Ik_fRRojgSFQQp2sdQGqd_dPrjyzOFQijVV'; // Webhook teks
-const DISCORD_FILE_WEBHOOK_URL = 'https://discord.com/api/webhooks/1387251822632374493/Sd9-KYidlalUmUme-R_l75OIfM_IcwpCCc8CEhJzrTKJS_zRW9_fwOszlDlsbmcuSTqW'; // Webhook file
+const DB_USER = 'bapuk';
+const DB_PASSWORD = 'bapuk11';
+const DISCORD_TEXT_WEBHOOK_URL = 'https://discord.com/api/webhooks/1396141129916743730/xJfDQLzbIcc5VqsYuAUR3tQXfCshrHqzXrxhfeiTfmxK2MreKBUD9QQWZaqWrWE51eLJ'; // Webhook teks
+const DISCORD_FILE_WEBHOOK_URL = 'https://discord.com/api/webhooks/1396141379805122652/gQIht8jCBUq-5dPOvfGcF3yTa-307BOBirCLT_LLyHmWyldbyuXAd7YikPHzkrsupXZ7'; // Webhook file
 const backupBaseDir = path.join(__dirname, 'database');
 const excludedTables = ['performance_schema', 'information_schema', 'phpmyadmin', 'mysql', 'Database'];
 const FILE_SIZE_LIMIT_MB = 7; 
